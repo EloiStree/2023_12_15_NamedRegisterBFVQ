@@ -1,10 +1,12 @@
 
 {                                                                   
-            "name": "be.eloistree.namedregisterbfvq",          
-    "references": [
+            "name": "be.elab.namedregisterbfvqEditor",          
+    "references": ["be.elab.namedregisterbfvq"
 ],                                                              
     "optionalUnityReferences": [],                                  
-    "includePlatforms": [],                                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
     "excludePlatforms": [],                                         
     "allowUnsafeCode": false,                                       
     "overrideReferences": false,                                    
